@@ -1,0 +1,27 @@
+$white: #FFF;
+$black: #000;
+$hblack: #252525;
+$pblack: #111111;
+$lgrey: #363636;
+$lorg: #f5833c;
+$dorg: #d9631a;
+$dbrown: #5d331d;
+$litecnt: #ebdec8;
+$brdrbrown: #806c40;
+$yelinput: #fcd375;
+$maticon: 'Material Icons';
+$font: 'Roboto', sans-serif;
+$curv: 'Pacifico', cursive;
+$awe: 'FontAwesome';
+
+.appear {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+.backface {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+} 
