@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+      <title>Wanderers Wanderers</title>
+      <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+      <link href="https://fonts.googleapis.com/css?family=Pacifico|Satisfy|Material+Icons|Roboto:300,400,500,700" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="css/style.css" rel="stylesheet">
+   </head>
+   <body>
+   <header>
+      <div class="nav-icon">
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+      </div>
+      <div class="container">
+         <div class="headflex">
+            <div>
+               <a href="#"><img src="images/logo.png" alt="Wanderers"></a>
+            </div>
+            <div>
+               <nav>
+                  <!-- <i class="material-icons close closemenu"></i> -->
+                  <ul>
+                     <li><a href="#" class="active">HOME</a></li>
+                     <li><a href="#">BEER</a>
+                        <ul>
+                           <li><a href="#">Craft Beers</a></li>
+                           <li><a href="#">Trending beer - food combo</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="#">MENU</a></li>
+                     <li><a href="#">Sustainability</a></li>
+                     <li><a href="#">Responsible Drinking</a></li>
+                     <li><a href="#">WANDERERS BANGALORE</a>
+                        <ul>
+                           <li><a href="#">Wanderers</a></li>
+                           <li><a href="#">Offers</a></li>
+                           <li><a href="#">events</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="#">BLOGS</a></li>
+                     <li><a href="#">CONTACT US</a>
+                        <ul>
+                           <li><a href="#">reservations</a></li>
+                           <li><a href="#">brewing enthusiasts</a></li>
+                           <li><a href="#">artists &amp; performances</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </div>
+   </header>
+   <div class="topbannersub">
+      <div class="coverBG" data-bg="images/wanderbg.jpg">
+         <div class="container">
+            <div class="flexwanderpage">
+               <div>
+                  <p><b>Our flagship craft brewery in Bangalore</b> epitomizes and offers you the best of craft beers, food, entertainment and an environment to enjoy with fellow Wanderers.</p>
+                  <p>Wander through our three zones, choose to be a Wanderer of the Seas, a Wanderer of the Land and / or Soar into the Skies!</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="container">
+      <div class="threewanders">
+         <div>
+            <a href="#" data-openid="popwander1">
+               <img src="images/wanderthumb1.jpg" alt="">
+               <h4>Wanderers of Sea</h4>
+               <span>KNOW MORE..</span>
+            </a>
+         </div>
+         <div>
+            <a href="#" data-openid="popwander2">
+               <img src="images/wanderthumb2.jpg" alt="">
+               <h4>Wanderers of Land</h4>
+               <span>KNOW MORE..</span>
+            </a>
+         </div>
+         <div>
+            <a href="#" data-openid="popwander3">
+               <img src="images/wanderthumb3.jpg" alt="">
+               <h4>Soaring into the Sky</h4>
+               <span>KNOW MORE..</span>
+            </a>
+         </div>
+      </div>
+   </div>
+   <footer>
+      <div class="container">
+         <div class="footflex">
+            <div>
+               <h2>Our Information</h2>
+               <p>Call us for any inquiry: <a href="tel:+911234567890">+91-1234567890</a></p>
+               <address>419, 7th Main Rd, 2nd Block, Kalyan Nagar <br/>HRBR Layout, Bengaluru, Karnataka 560043</address>
+            </div>
+            <div>
+               <p>Follow us at:</p>
+               <ul>
+                  <li><a href="#"><img src="images/fb.png" alt="Facebook Wanderers"></a></li>
+                  <li><a href="#"><img src="images/insta.png" alt="Instagram Wanderers"></a></li>
+                  <li><a href="#"><img src="images/twi.png" alt="Twitter Wanderers"></a></li>
+               </ul>
+            </div>
+         </div>
+         <span class="copyright">(c) 2018 Wanderers Craft Brewery pvt. Ltd. / Web deisgn by <a href="#">owspire</a></span>
+      </div>
+   </footer>
+   <!-- Popup -->
+   <div class="popup" id="popwander1">
+      <div class="middleflex">
+         <div>
+            <i class="material-icons closedpop">close</i>
+            <img src="images/wanderhover1.jpg" alt="">
+         </div>
+      </div>
+   </div>
+   <div class="popup" id="popwander2">
+      <div class="middleflex">
+         <div>
+            <i class="material-icons closedpop">close</i>
+            <img src="images/wanderhover2.jpg" alt="">
+         </div>
+      </div>
+   </div>
+   <div class="popup" id="popwander3">
+      <div class="middleflex">
+         <div>
+            <i class="material-icons closedpop">close</i>
+            <img src="images/wanderhover1.jpg" alt="">
+         </div>
+      </div>
+   </div>
+   <!-- script -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+   <script src="js/main.min.js"></script>
+   </body>
+</html>

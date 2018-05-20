@@ -113,6 +113,66 @@
 			$('.nav-icon, nav').toggleClass('active');
 		});
 
+		$('.closedpop').click(function(){
+			$(this).parents('.popup').fadeOut();
+		});
+
+		$('.threewanders > div a').click(function(){
+			var openid = $(this).data('openid');
+			$('#'+openid).fadeIn();
+			return false;
+		});
+
+		/* Event Sliders */
+		$('.showevtslide').slick({
+		  slidesToShow: 3,
+		  slidesToScroll: 1,
+		  dots: false,
+		  arrows: true,
+		  /* centerMode: false,
+		  focusOnSelect: true, */
+		  prevArrow: '<a href="javascript:void(0);" class="slick-prev slick-arrow"><i class="material-icons">chevron_left</i></a>',
+		  nextArrow: '<a href="javascript:void(0);" class="slick-next slick-arrow"><i class="material-icons">chevron_right</i></a>',
+		  responsive: [
+		    {
+		      breakpoint: 768,
+		      settings: {
+		        slidesToShow: 2
+		      }
+		    },
+		    {
+		      breakpoint: 540,
+		      settings: {
+		        slidesToShow: 1
+		      }
+		    }]
+		});
+
+		/* Offer Sliders */
+		$('.showofferslide').slick({
+		  slidesToShow: 3,
+		  slidesToScroll: 1,
+		  dots: false,
+		  arrows: true,
+		  /* centerMode: false,
+		  focusOnSelect: true, */
+		  prevArrow: '<a href="javascript:void(0);" class="slick-prev slick-arrow"><i class="material-icons">chevron_left</i></a>',
+		  nextArrow: '<a href="javascript:void(0);" class="slick-next slick-arrow"><i class="material-icons">chevron_right</i></a>',
+		  responsive: [
+		    {
+		      breakpoint: 768,
+		      settings: {
+		        slidesToShow: 2
+		      }
+		    },
+		    {
+		      breakpoint: 540,
+		      settings: {
+		        slidesToShow: 1
+		      }
+		    }]
+		});
+
 		/* Scroll Animation */ 
 		$('*[data-animated]').addClass('animated');
 			function animated_contents() {

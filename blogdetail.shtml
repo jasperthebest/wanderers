@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+      <title>Wanderers Wanderers</title>
+      <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+      <link href="https://fonts.googleapis.com/css?family=Pacifico|Satisfy|Material+Icons|Roboto:300,400,500,700" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+   </head>
+   <body>
+   <header>
+      <div class="nav-icon">
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+      </div>
+      <div class="container">
+         <div class="headflex">
+            <div>
+               <a href="#"><img src="images/logo.png" alt="Wanderers"></a>
+            </div>
+            <div>
+               <nav>
+                  <!-- <i class="material-icons close closemenu"></i> -->
+                  <ul>
+                     <li><a href="#" class="active">HOME</a></li>
+                     <li><a href="#">BEER</a>
+                        <ul>
+                           <li><a href="#">Craft Beers</a></li>
+                           <li><a href="#">Trending beer - food combo</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="#">MENU</a></li>
+                     <li><a href="#">Sustainability</a></li>
+                     <li><a href="#">Responsible Drinking</a></li>
+                     <li><a href="#">WANDERERS BANGALORE</a>
+                        <ul>
+                           <li><a href="#">Wanderers</a></li>
+                           <li><a href="#">Offers</a></li>
+                           <li><a href="#">events</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="#">BLOGS</a></li>
+                     <li><a href="#">CONTACT US</a>
+                        <ul>
+                           <li><a href="#">reservations</a></li>
+                           <li><a href="#">brewing enthusiasts</a></li>
+                           <li><a href="#">artists &amp; performances</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </div>
+   </header>
+   <div class="topbannersub">
+      <div class="coverBG" data-bg="images/detailbg.jpg">
+         <div class="container">
+            <div class="flexwanderpage detailpage">
+               <div>
+                  <span>Info-ducation</span>
+                  <h1>Our muse: Arctic Tern</h1>
+                  <span>January 2018 / by Founder’s Pen</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="container">
+      <div class="blogcolumn">
+         <div class="postbar">
+            <div class="blogdetailcontent">
+               <iframe width="100%" height="400" src="https://www.youtube.com/embed/dULN8WbMb3M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+               <p>Arctic Tern ((Sterna paradisaea), a strongly migrating bird which has a circumpolar breeding distribution covering Arctic, sub-Arctic and Antarctic coast, travelling over 70-90,000 Km EVERY YEAR, is our Wanderer-in-Chief!</p>
+               <p>They are by far the longest known migrating species known, seeing two summers each year, get to experience more daylight than any other animal in the world (hence ‘Bird of the Sun’) as it migrates from its northern Arctic breeding grounds to southern Antarctic coast for summer and back again each year.</p>
+               <p>They are estimated to travel over 90,000 Km every year, travelling over 2.4 million KM, which is three trips to the Moon!!!</p>
+               <ul class="shareme">
+                  <li><a href="#"><img src="images/fbshare.png"></a></li>
+                  <li><a href="#"><img src="images/twittershare.png"></a></li>
+               </ul>
+            </div>
+            <div class="nextprev">
+               <a href="#"><i class="material-icons">chevron_left</i> Prev</a>
+               <a href="#">Next <i class="material-icons">chevron_right</i></a>
+            </div>
+         </div>
+         <div class="sidebar">
+            <div class="searchbar">
+               <input type="text" placeholder="Looking for..." name="">
+               <button><i class="material-icons">search</i></button>
+            </div>
+            <div class="recentpost">
+               <h3>Recent posts</h3>
+               <a href="#">
+                  <img src="images/recentthumb.jpg">
+                  <div>
+                     <div>
+                        <span>January 2018 / by Founder’s Pen</span>
+                        <h5>Our muse: Arctic Tern</h5>
+                     </div>
+                  </div>
+               </a>
+               <a href="#">
+                  <img src="images/recentthumb.jpg">
+                  <div>
+                     <span>January 2018 / by Founder’s Pen</span>
+                     <h5>Our muse: Arctic Tern</h5>
+                  </div>
+               </a>
+            </div>
+            <div class="categoryside">
+               <h3>Categories</h3>
+               <ul>
+                  <li><a href="#">Info-ducation</a></li>
+                  <li><a href="#">Business</a></li>
+                  <li><a href="#">Festivals</a></li>
+                  <li><a href="#">Event Coverage</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+   <footer>
+      <div class="container">
+         <div class="footflex">
+            <div>
+               <h2>Our Information</h2>
+               <p>Call us for any inquiry: <a href="tel:+911234567890">+91-1234567890</a></p>
+               <address>419, 7th Main Rd, 2nd Block, Kalyan Nagar <br/>HRBR Layout, Bengaluru, Karnataka 560043</address>
+            </div>
+            <div>
+               <p>Follow us at:</p>
+               <ul>
+                  <li><a href="#"><img src="images/fb.png" alt="Facebook Wanderers"></a></li>
+                  <li><a href="#"><img src="images/insta.png" alt="Instagram Wanderers"></a></li>
+                  <li><a href="#"><img src="images/twi.png" alt="Twitter Wanderers"></a></li>
+               </ul>
+            </div>
+         </div>
+         <span class="copyright">(c) 2018 Wanderers Craft Brewery pvt. Ltd. / Web deisgn by <a href="#">owspire</a></span>
+      </div>
+   </footer>
+   <!-- Popup -->
+   <div class="popup" id="popwander1">
+      <div class="middleflex">
+         <div>
+            <i class="material-icons closedpop">close</i>
+            <img src="images/wanderhover1.jpg" alt="">
+         </div>
+      </div>
+   </div>
+   <div class="popup" id="popwander2">
+      <div class="middleflex">
+         <div>
+            <i class="material-icons closedpop">close</i>
+            <img src="images/wanderhover2.jpg" alt="">
+         </div>
+      </div>
+   </div>
+   <div class="popup" id="popwander3">
+      <div class="middleflex">
+         <div>
+            <i class="material-icons closedpop">close</i>
+            <img src="images/wanderhover1.jpg" alt="">
+         </div>
+      </div>
+   </div>
+   <!-- script -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+   <script src="js/main.min.js"></script>
+   </body>
+</html>
