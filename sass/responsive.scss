@@ -3,10 +3,12 @@
 @media screen and (max-width:1280px) {
 	.container { width: 100%; }
 	.contactform { padding: 60px 60px 50px; }
+  .blogcolumn>div.postbar { padding-right: 30px; }
 }
 
 @media screen and (max-width:1100px) {
 	.contactform>div { padding: 0 10px; }
+  .threewanders>div { padding: 0 15px; }
 }
 
 @media screen and (max-width:1023px) {
@@ -23,7 +25,13 @@
 	  -moz-animation-delay: 0s !important;
 	  animation-delay: 0s !important;
   }
-  body { padding-top: 60px; }
+  body { /* padding-top: 60px; */ }
+  .topbannersub {
+    > div { padding-top: 60px; }
+  }
+  .flexwanderpage {
+    &.detailpage { height: 350px; padding-top: 0; }
+  }
   .eventslider { padding-top: 0; }
   .nav-icon { display: inline-block; }
   .headflex { flex-direction: column;
@@ -53,6 +61,12 @@
   		}	
   	}
   }
+  .flexwanderpage { align-items: center; }
+  .blogcolumn {
+    > div {
+      &.postbar, &.sidebar { flex: 1 1 100%; padding-right: 0; padding-bottom: 15px; }
+    }
+  }
   .boxabt { padding: 30px 25px; 
   	> div { padding: 0 15px; }
   }
@@ -75,10 +89,34 @@
       img { display: block; margin: 20px auto 0; }
     }
   }
+  .knowbeer { padding: 50px 0; }
+  .middleeight.mapform, .middleeight { padding: 50px 0; width: 100%; }
+  .footflex { width: 100%; }
+  .listbeer>div { width: 50%; }
+  .listofbeer { padding: 10px 0; }
+}
+
+@media screen and (max-width:950px) {
+  .flexboxbeer {
+    > div {
+      &:first-child { padding: 0 0 25px; width: 100%; 
+        img { display: block; margin: 0 auto; width: initial; }
+      }
+      &:last-child { padding: 0; width: 100%; }
+    }
+  }
 }
 
 @media screen and (max-width:840px) {
-  .footflex { width: 100%; }
+  .threewanders>div { flex: 1 1 100%; padding: 0 0 25px; 
+    &:last-child { padding-bottom: 0; }
+  }
+  .threewanders.landimgs>div { padding: 0 0 15px; 
+    &:last-child { padding-bottom: 0; 
+      img { margin-bottom: 0; }
+    }
+  }
+  .middlebeercontent .twosmallbeer { padding-bottom: 0; }
 }
 
 @media screen and (max-width:768px) {
@@ -114,7 +152,7 @@
   .footflex>div {
       &:first-child { width: calc(100% - 158px); }
       &:last-child { width: 158px; }
-      ul { margin: 0;
+      ul {
         li { padding: 0 5px; }
       }
   }
@@ -123,6 +161,13 @@
   .fourthsect { padding: 40px 0 20px; }
   footer { padding: 30px 0 25px; }
   .evttablemiddle.eventboard, .evttablemiddle.offerside { padding: 80px 0; }
+  .middleflex>div { width: 100%; }
+  .splitwayshow.threewayshow>div { padding: 0 0 20px; width: 100%; }
+  .flexboxbeer { padding: 40px 0; }
+}
+
+@media screen and (max-width:699px) {
+  .listbeer>div { padding: 10px 5px; }
 }
 
 @media screen and (max-width:600px) {
@@ -138,6 +183,24 @@
  .boxabt { padding: 20px 15px; }
  .boxabt>div h2 { font-size: 28px; line-height: 36px; }
  .contactform { padding: 35px 20px; }
+ .threewanders, .middleeight.mapform, .middleeight { padding: 40px 0; }
+ .splitwayshow.twowayshow>div { width: 100%; 
+  &:last-child { padding-left: 0; }
+  &:first-child { padding-right: 0; }
+ }
+ .listbeer>div { padding: 0 0 15px; width: 100%; 
+  &:last-child { padding-bottom: 0; }
+ }
+ .flexboxbeer { padding: 30px 0; }
+ .middlebeercontent {
+  .onelinedetail { padding-bottom: 10px; }
+  .twosmallbeer>div { width: 100%; }
+  .twodetailbeer>div { width: 100%; 
+    &:last-child { padding-top: 0; }
+  }
+ }
+ .middlebeercontent .twodetailbeer:before { display: none; }
+ .knowbeer { padding: 40px 0; }
 }
 
 @media screen and (max-width:560px) {
