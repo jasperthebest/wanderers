@@ -314,6 +314,7 @@ footer { background-color: $dbrown; padding: 40px 0 25px; }
 .eventslider { padding-top: 72px; }
 
 .evttablemiddle { 
+  &.eventboard { padding: 140px 0; }
   &.offerside { padding: 140px 0;
     > div { background-color: rgba($black, .8); border: 0; }
   }

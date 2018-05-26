@@ -24,6 +24,7 @@
 	  animation-delay: 0s !important;
   }
   body { padding-top: 60px; }
+  .eventslider { padding-top: 0; }
   .nav-icon { display: inline-block; }
   .headflex { flex-direction: column;
   	> div {
@@ -121,6 +122,7 @@
   .secondsect { padding: 40px 0 50px; }
   .fourthsect { padding: 40px 0 20px; }
   footer { padding: 30px 0 25px; }
+  .evttablemiddle.eventboard, .evttablemiddle.offerside { padding: 80px 0; }
 }
 
 @media screen and (max-width:600px) {
@@ -149,6 +151,7 @@
   .recntlink>div h5 { font-size: 14px; }
   .fourthsect p { font-size: 16px; }
   .homelogo>div h1 strong { font-size: 25px; }
+  .evttablemiddle.eventboard, .evttablemiddle.offerside { padding: 50px 0; }
 }
 
 @media screen and (max-width:480px) {
