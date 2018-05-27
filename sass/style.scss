@@ -134,7 +134,7 @@ header { background-color: rgba($lgrey, .85); left: 0; position: fixed; top: 0; 
   }
 }
 
-.btn { display: inline-block; min-width: 160px; padding: 5px;
+.btn { display: inline-block; min-width: 160px; padding: 5px; text-align: center;
   span { display: block; font-size: 16px; font-weight: 700; letter-spacing: 2px; padding: 10px 15px; text-transform: uppercase; transition: background-color .3s linear; will-change: background-color; }
   &.primary { border: 1px solid $lorg; color: $white; 
     span { background-color: $lorg; }
@@ -529,6 +529,10 @@ footer { background-color: $dbrown; padding: 40px 0 25px; }
     &:before { background-color: rgba($white, .2); content: ''; height: calc(100% - 40px); left: 50%; position: absolute; top: 20px; width: 1px; }
     > div { padding: 20px 30px; width: 50%; }
   }
+}
+.topbannersub { position: relative; }
+.tablenow { bottom: 40px; font-size: 14px; left: 50%; min-width: 280px; position: absolute; text-transform: uppercase; transform: translateX(-50%); 
+  span { font-weight: 400; letter-spacing: 0; }
 }
 
 @import "responsive";
