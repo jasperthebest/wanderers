@@ -4,7 +4,7 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-      <title>Wanderers Wanderers</title>
+      <title>Wanderers of land -  Wanderers</title>
       <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
       <link href="https://fonts.googleapis.com/css?family=Pacifico|Satisfy|Material+Icons|Roboto:300,400,500,700" rel="stylesheet">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -59,39 +59,36 @@
       </div>
    </header>
    <div class="topbannersub">
-      <div class="coverBG" data-bg="images/wanderbg.jpg">
+      <div class="coverBG" data-bg="images/wanderlandbg.jpg">
          <div class="container">
-            <div class="flexwanderpage reducehgt">
+            <div class="flexwanderpage landpage">
                <div>
-                  <p><b>Our flagship craft brewery in Bangalore</b> epitomizes and offers you the best of craft beers, food, entertainment and an environment to enjoy with fellow Wanderers.</p>
-                  <p>Wander through our three zones, choose to be a Wanderer of the Seas, a Wanderer of the Land and / or Soar into the Skies!</p>
+                  <h1>Wanderers of Sea</h1>
+                  <p>Ever since we stepped on land, our exploration of food – hunting, gathering, conquering and finally settling down - is natural to our living. This is where the artists – budding and famous, bloom and enthral you! This is where you can try your hand at Brew Your Beer ™; tap your own beer at the Beer Cave, shake a leg and jive! We invite you to explore the geography, wandering, travelling and enjoying our Art & Pride in Craft Beer ™!</p>
                </div>
             </div>
          </div>
       </div>
    </div>
    <div class="container">
-      <div class="threewanders">
+      <div class="threewanders landimgs">
          <div>
-            <a href="#" data-openid="popwander1">
-               <img src="images/wanderthumb1.jpg" alt="">
-               <h4>Wanderers of Sea</h4>
-               <span>KNOW MORE..</span>
-            </a>
+            <img src="images/wandersea1.jpg" alt="">
          </div>
          <div>
-            <a href="#" data-openid="popwander2">
-               <img src="images/wanderthumb2.jpg" alt="">
-               <h4>Wanderers of Land</h4>
-               <span>KNOW MORE..</span>
-            </a>
+            <img src="images/wandersea2.jpg" alt="">
          </div>
          <div>
-            <a href="#" data-openid="popwander3">
-               <img src="images/wanderthumb3.jpg" alt="">
-               <h4>Soaring into the Sky</h4>
-               <span>KNOW MORE..</span>
-            </a>
+            <img src="images/wandersea3.jpg" alt="">
+         </div>
+         <div>
+            <img src="images/wandersea4.jpg" alt="">
+         </div>
+         <div>
+            <img src="images/wandersea5.jpg" alt="">
+         </div>
+         <div>
+            <img src="images/wandersea6.jpg" alt="">
          </div>
       </div>
    </div>

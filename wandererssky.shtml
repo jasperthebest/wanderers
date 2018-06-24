@@ -4,7 +4,7 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-      <title>Menu Page - Wanderers</title>
+      <title>Wanderers of land -  Wanderers</title>
       <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
       <link href="https://fonts.googleapis.com/css?family=Pacifico|Satisfy|Material+Icons|Roboto:300,400,500,700" rel="stylesheet">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -59,8 +59,38 @@
       </div>
    </header>
    <div class="topbannersub">
-      <img src="images/mapindia.jpg" alt="">
-      <a href="#" class="btn primary tablenow"><span>book your table now</span></a>
+      <div class="coverBG" data-bg="images/wanderlandbg.jpg">
+         <div class="container">
+            <div class="flexwanderpage landpage">
+               <div>
+                  <h1>Wanderers of Sky</h1>
+                  <p>Ever since we stepped on land, our exploration of food – hunting, gathering, conquering and finally settling down - is natural to our living. This is where the artists – budding and famous, bloom and enthral you! This is where you can try your hand at Brew Your Beer ™; tap your own beer at the Beer Cave, shake a leg and jive! We invite you to explore the geography, wandering, travelling and enjoying our Art & Pride in Craft Beer ™!</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="container">
+      <div class="threewanders landimgs">
+         <div>
+            <img src="images/wandersky1.jpg" alt="">
+         </div>
+         <div>
+            <img src="images/wandersky2.jpg" alt="">
+         </div>
+         <div>
+            <img src="images/wandersky3.jpg" alt="">
+         </div>
+         <div>
+            <img src="images/wandersky4.jpg" alt="">
+         </div>
+         <div>
+            <img src="images/wandersky5.jpg" alt="">
+         </div>
+         <div>
+            <img src="images/wandersky6.jpg" alt="">
+         </div>
+      </div>
    </div>
    <footer>
       <div class="container">
@@ -82,6 +112,31 @@
          <span class="copyright">(c) 2018 Wanderers Craft Brewery pvt. Ltd. / Web deisgn by <a href="#">owspire</a></span>
       </div>
    </footer>
+   <!-- Popup -->
+   <div class="popup" id="popwander1">
+      <div class="middleflex">
+         <div>
+            <i class="material-icons closedpop">close</i>
+            <img src="images/wanderhover1.jpg" alt="">
+         </div>
+      </div>
+   </div>
+   <div class="popup" id="popwander2">
+      <div class="middleflex">
+         <div>
+            <i class="material-icons closedpop">close</i>
+            <img src="images/wanderhover2.jpg" alt="">
+         </div>
+      </div>
+   </div>
+   <div class="popup" id="popwander3">
+      <div class="middleflex">
+         <div>
+            <i class="material-icons closedpop">close</i>
+            <img src="images/wanderhover1.jpg" alt="">
+         </div>
+      </div>
+   </div>
    <!-- script -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
    <script src="js/main.min.js"></script>

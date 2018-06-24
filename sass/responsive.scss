@@ -40,7 +40,7 @@
   			img { width: 80px; }
   		}
   		&:last-child { text-align: center;
-  			nav { background-color: $lgrey; height: 100%; left: 0; opacity: 0; padding: 40px; position: fixed; top: 0; transform: translateX(100%); transition: all .25s ease; visibility: hidden; width: 100%; 
+  			nav { background-color: $lgrey; height: 100%; left: 0; opacity: 0; overflow-y: auto; padding: 40px; position: fixed; top: 0; transform: translateX(100%); transition: all .25s ease; visibility: hidden; width: 100%; 
   				&.active { opacity: 1; transform: translateX(0); visibility: visible; }
   				/* .closemenu { display: inline-block; } */
   				> ul { margin: 0 auto; padding-top: 10px; width: 320px;
@@ -94,6 +94,14 @@
   .footflex { width: 100%; }
   .listbeer>div { width: 50%; }
   .listofbeer { padding: 10px 0; }
+  .trendingcombo { padding: 90px 0 40px; }
+  .tablenow { bottom: 15px; }
+  .topbannersub>div { padding-top: 0; }
+  .topbannersub > img { display: none; }
+  .internatbroad, .mobindmenu { display: block; }
+  .flexwanderpage.reducehgt { height: 500px; 
+    > div { padding: 60px 0; }
+  }
 }
 
 @media screen and (max-width:950px) {
@@ -105,6 +113,10 @@
       &:last-child { padding: 0; width: 100%; }
     }
   }
+  .singlecombo>div .twofbcombo, .singlecombo>div:first-child .twofbcombo { align-items: center; flex-direction: column; }
+  .singlecombo>div .twofbcombo>div:first-child { padding: 0; }
+  .singlecombo>div:first-child .twofbcombo>div, .singlecombo>div .twofbcombo>div { justify-content: center; }
+  .singlecombo>div .twofbcombo>div img { margin-bottom: 15px; }
 }
 
 @media screen and (max-width:840px) {
@@ -117,6 +129,7 @@
     }
   }
   .middlebeercontent .twosmallbeer { padding-bottom: 0; }
+  .singlecombo>div .twofbcombo>div { width: 100%; }
 }
 
 @media screen and (max-width:768px) {
@@ -201,6 +214,11 @@
  }
  .middlebeercontent .twodetailbeer:before { display: none; }
  .knowbeer { padding: 40px 0; }
+ .singlecombo>div:first-child:before { height: 40px; width: 40px; }
+ .singlecombo>div .twofbcombo>div { font-size: 14px; }
+ .internatbroad .slick-arrow i { font-size: 40px; line-height: 50px; }
+ .internatbroad .slick-arrow.slick-next { right: 0; }
+ .internatbroad .slick-arrow.slick-prev { left: 0; }
 }
 
 @media screen and (max-width:560px) {
@@ -215,10 +233,15 @@
   .fourthsect p { font-size: 16px; }
   .homelogo>div h1 strong { font-size: 25px; }
   .evttablemiddle.eventboard, .evttablemiddle.offerside { padding: 50px 0; }
+  .singlecombo>div .twofbcombo>div { font-size: 13px; }
+  .singlecombo>div:first-child:before { height: 30px; width: 30px; }
+  .singlecombo>div:first-child .twofbcombo>div, .singlecombo>div .twofbcombo>div { text-align: center; }
 }
 
 @media screen and (max-width:480px) {
 	.headflex>div:last-child nav { padding: 40px 15px 20px;
 		> ul { width: 100%; }
 	}
+  .singlecombo>div:first-child:before { height: 30px; width: 30px; }
+  .singlecombo>div .twofbcombo>div { font-size: 12px; }
 }

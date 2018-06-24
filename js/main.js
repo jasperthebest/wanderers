@@ -173,6 +173,19 @@
 		    }]
 		});
 
+		/* International Food Listing for mobile */
+		$('.internatbroad').slick({
+		  autoplay: true,
+		  slidesToShow: 1,
+		  slidesToScroll: 1,
+		  dots: false,
+		  arrows: true,
+		  /* centerMode: false,
+		  focusOnSelect: true, */
+		  prevArrow: '<a href="javascript:void(0);" class="slick-prev slick-arrow"><i class="material-icons">chevron_left</i></a>',
+		  nextArrow: '<a href="javascript:void(0);" class="slick-next slick-arrow"><i class="material-icons">chevron_right</i></a>',
+		});
+
 		/* Scroll Animation */ 
 		$('*[data-animated]').addClass('animated');
 			function animated_contents() {

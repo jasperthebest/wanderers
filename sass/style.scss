@@ -276,6 +276,9 @@ footer { background-color: $dbrown; padding: 40px 0 25px; }
 }
 
 .flexwanderpage { align-items: flex-end; display: flex; justify-content: flex-start; height: 500px;
+  &.reducehgt { height: 320px; 
+    > div { padding: 50px 0 40px; }
+  }
   &.landingpage { height: 350px; }
   &.landpage { height: 400px;
     > div {
@@ -533,6 +536,44 @@ footer { background-color: $dbrown; padding: 40px 0 25px; }
 .topbannersub { position: relative; }
 .tablenow { bottom: 40px; font-size: 14px; left: 50%; min-width: 280px; position: absolute; text-transform: uppercase; transform: translateX(-50%); 
   span { font-weight: 400; letter-spacing: 0; }
+}
+.trendingcombo { padding: 120px 0 40px;
+  h1 { color: $white; font: 400 24px/30px $curv; }
+}
+.singlecombo { display: flex; flex-wrap: wrap; padding-bottom: 20px;
+  > div { position: relative; width: 50%; 
+    &:first-child { padding-right: 35px; 
+      &:before { background: url('../images/comboplus.png') center center no-repeat; content: ''; height: 51px; right: 0; position: absolute; top: 50%; transform: translate(50%, -50%); width: 51px; }
+    }
+    &:last-child { padding-left: 35px; }
+    &:first-child {
+      .twofbcombo { flex-direction: row-reverse; 
+        > div { justify-content: flex-end; }
+      }
+    }
+    .twofbcombo { display: flex; flex-wrap: wrap; 
+      > div { align-items: center; color: $white; display: flex; font-size: 15px; justify-content: flex-start; text-transform: uppercase; width: 50%;
+        img { width: 100%; }
+        &:first-child { padding: 0 25px; }
+      }
+    }
+  }
+}
+.mobindmenu { display: none; 
+  > img { width: 100%; }
+}
+.internatbroad { display: none;
+  .slick-arrow { color: $dbrown; display: inline-block; position: absolute; top: 50%; transform: translateY(-50%); z-index: 3; 
+    &:hover {
+      color: $white;
+    }
+    &.slick-prev { left: 15px; }
+    &.slick-next { right: 15px; }
+    i { font-size: 55px; line-height: 55px; }
+  }
+  .slick-slide {
+    img { width: 100%; }
+  }
 }
 
 @import "responsive";

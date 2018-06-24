@@ -60,6 +60,9 @@
    </header>
    <div class="topbannersub">
       <img src="images/mapindia.jpg" alt="">
+      <div class="mobindmenu">
+         <img src="images/indianmobile.jpg" alt="">
+      </div>
       <a href="#" class="btn primary tablenow"><span>book your table now</span></a>
    </div>
    <footer>

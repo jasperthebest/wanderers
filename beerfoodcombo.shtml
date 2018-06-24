@@ -4,7 +4,7 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-      <title>Wanderers Wanderers</title>
+      <title>Beer Combo - Wanderers</title>
       <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
       <link href="https://fonts.googleapis.com/css?family=Pacifico|Satisfy|Material+Icons|Roboto:300,400,500,700" rel="stylesheet">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -59,40 +59,84 @@
       </div>
    </header>
    <div class="topbannersub">
-      <div class="coverBG" data-bg="images/wanderbg.jpg">
-         <div class="container">
-            <div class="flexwanderpage reducehgt">
-               <div>
-                  <p><b>Our flagship craft brewery in Bangalore</b> epitomizes and offers you the best of craft beers, food, entertainment and an environment to enjoy with fellow Wanderers.</p>
-                  <p>Wander through our three zones, choose to be a Wanderer of the Seas, a Wanderer of the Land and / or Soar into the Skies!</p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div class="container">
-      <div class="threewanders">
-         <div>
-            <a href="#" data-openid="popwander1">
-               <img src="images/wanderthumb1.jpg" alt="">
-               <h4>Wanderers of Sea</h4>
-               <span>KNOW MORE..</span>
-            </a>
-         </div>
-         <div>
-            <a href="#" data-openid="popwander2">
-               <img src="images/wanderthumb2.jpg" alt="">
-               <h4>Wanderers of Land</h4>
-               <span>KNOW MORE..</span>
-            </a>
-         </div>
-         <div>
-            <a href="#" data-openid="popwander3">
-               <img src="images/wanderthumb3.jpg" alt="">
-               <h4>Soaring into the Sky</h4>
-               <span>KNOW MORE..</span>
-            </a>
-         </div>
+      <div class="coverBG" data-bg="images/combobg.jpg">
+       <div class="container">
+          <div class="trendingcombo">
+            <h1>What's Trending at Wanderers This Week</h1>
+           <div class="twocombo">
+              <div class="singlecombo">
+                <div>
+                  <div class="twofbcombo">
+                    <div>
+                      <img src="images/foodcombo1.jpg">
+                    </div>
+                    <div>
+                      Pulled Pork Sliders
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="twofbcombo">
+                    <div>
+                      <img src="images/beercombo1.jpg">
+                    </div>
+                    <div>
+                      Weizen Bock
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="singlecombo">
+                <div>
+                  <div class="twofbcombo">
+                    <div>
+                      <img src="images/foodcombo2.jpg">
+                    </div>
+                    <div>
+                      meat cravers pizza
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <div class="twofbcombo">
+                      <div>
+                        <img src="images/beercombo2.jpg">
+                      </div>
+                      <div>
+                        Wanderers Stout
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="singlecombo">
+                <div>
+                  <div class="twofbcombo">
+                    <div>
+                      <img src="images/foodcombo3.jpg">
+                    </div>
+                    <div>
+                      Scotched egg
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <div class="twofbcombo">
+                      <div>
+                        <img src="images/beercombo3.jpg">
+                      </div>
+                      <div>
+                        hans bernstein
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           </div>
+        </div>  
+       </div>
       </div>
    </div>
    <footer>
@@ -115,32 +159,6 @@
          <span class="copyright">(c) 2018 Wanderers Craft Brewery pvt. Ltd. / Web deisgn by <a href="#">owspire</a></span>
       </div>
    </footer>
-   <!-- Popup -->
-   <div class="popup" id="popwander1">
-      <div class="middleflex">
-         <div>
-            <i class="material-icons closedpop">close</i>
-            <img src="images/wanderhover1.jpg" alt="">
-         </div>
-      </div>
-   </div>
-   <div class="popup" id="popwander2">
-      <div class="middleflex">
-         <div>
-            <i class="material-icons closedpop">close</i>
-            <img src="images/wanderhover2.jpg" alt="">
-         </div>
-      </div>
-   </div>
-   <div class="popup" id="popwander3">
-      <div class="middleflex">
-         <div>
-            <i class="material-icons closedpop">close</i>
-            <img src="images/wanderhover1.jpg" alt="">
-         </div>
-      </div>
-   </div>
-   <!-- script -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
    <script src="js/main.min.js"></script>
    </body>
