@@ -124,34 +124,46 @@
          <h2>Responsible drinking</h2>
          <p>Check your beer-o-meter before you head out!</p>
          <div class="glassbeer">
-            <div class="contactform">
-               <div>
-                  <div class="formcntfield">
-                     <label>Ounce of liquore consumed:</label>
-                     <input type="text" class="txtbox" name="">
+            <div>
+               <div class="contactform">
+                  <div>
+                     <div class="formcntfield">
+                        <label>Liquore consumed (in ml)</label>
+                        <input type="number" class="txtbox" id="alcoholoz" name="">
+                     </div>
+                     <div class="formcntfield">
+                        <label>% of alcohol in drink</label>
+                        <input type="number" class="txtbox" id="alcoholper" max="100" name="">
+                     </div>
+                     <div class="formcntfield">
+                        <label>Your weight (in kg)</label>
+                        <input type="number" class="txtbox" id="weightpd" name="">
+                     </div>
+                     <div class="formcntfield">
+                        <label>Time passed (in hour)</label>
+                        <input type="number" class="txtbox" id="timehr" name="">
+                     </div>
                   </div>
-                  <div class="formcntfield">
-                     <label>% of alcohol in drink:</label>
-                     <input type="text" class="txtbox" name="">
+                  <div>
+                     <!--
+                     <div class="formcntfield">
+                        <label>Your result:</label>
+                        <input type="text" class="txtbox" name="">
+                     </div>
+                     <div class="formcntfield">
+                        <label>BAC percentage:</label>
+                        <input type="text" class="txtbox" name="">
+                     </div> 
+                     -->
+                     <div class="middlealcohol">
+                        <div>
+                           <h5>In wine there is wisdom, in beer there is Freedom, in water there is bacteria.</h5>
+                        </div>
+                     </div>
                   </div>
-                  <div class="formcntfield">
-                     <label>Your weight:</label>
-                     <input type="text" class="txtbox" name="">
-                  </div>
-                  <div class="formcntfield">
-                     <label>Hours spent drinking:</label>
-                     <input type="text" class="txtbox" name="">
-                  </div>    
                </div>
-               <div>
-                  <div class="formcntfield">
-                     <label>Your result:</label>
-                     <input type="text" class="txtbox" name="">
-                  </div>
-                  <div class="formcntfield">
-                     <label>BAC percentage:</label>
-                     <input type="text" class="txtbox" name="">
-                  </div> 
+               <div class="text-center">
+                  <a href="#" class="btn primary submitbloodsample"><span>Submit</span></a> 
                </div>
             </div>
          </div>
@@ -221,6 +233,14 @@
          <span class="copyright">(c) 2018 Wanderers Craft Brewery pvt. Ltd. / Web deisgn by <a href="#">owspire</a></span>
       </div>
    </footer>
+   <!-- Pop up tab -->
+   <div class="poptabs">
+      <div class="middletable">
+         <div>
+            <div class="bgslidertop"></div>
+         </div>
+      </div>
+   </div>
    <!-- script -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
    <script src="js/main.min.js"></script>

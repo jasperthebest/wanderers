@@ -31,6 +31,36 @@
 			return false;
 		});
 
+		/* Alcohol Percentage */
+		var errnum = 0;
+		$('.contactform .formcntfield .txtbox').focusout(function(){
+			if($(this).val().length == 0) {
+				errnum++;
+				$(this).addClass('error');
+			} else {
+				errnum--;
+				$(this).removeClass('error');
+			}
+		});
+
+		$('.submitbloodsample').click(function(){
+			if(errnum <= 0) {
+				var alc = $('#alcoholoz').val();
+				var wgt = $('#weightpd').val();
+				var tim = $('#timehr').val();
+				var per = $('#alcoholper').val();
+				var result = per * alc * 0.033814 * 0.823 * 0.62 / (16 * wgt * 2.2046) - 0.015 * tim;
+				//var result = (alc * 5.14 / wgt * 0.62) - .015 * tim;
+				if(result < 0) {
+					$('.middlealcohol h5').addClass('result').text(0 + ' %');
+				} else {
+					$('.middlealcohol h5').addClass('result').text(result.toFixed(2) + ' %');
+				}
+				
+			}
+			return false;
+		});
+
 		/* Event Sliders */
 		$('.showevtslide').slick({
 		  slidesToShow: 3,
@@ -92,6 +122,11 @@
 		  focusOnSelect: true, */
 		  prevArrow: '<a href="javascript:void(0);" class="slick-prev slick-arrow"><i class="material-icons">chevron_left</i></a>',
 		  nextArrow: '<a href="javascript:void(0);" class="slick-next slick-arrow"><i class="material-icons">chevron_right</i></a>',
+		});
+
+		/* Tap action */
+		$('.bgslidertop').click(function(){
+			$(this).addClass('active');
 		});
 
 		/* Scroll Animation */ 
