@@ -221,6 +221,7 @@
  .internatbroad .slick-arrow i { font-size: 40px; line-height: 50px; }
  .internatbroad .slick-arrow.slick-next { right: 0; }
  .internatbroad .slick-arrow.slick-prev { left: 0; }
+ .poptabs { padding: 20px; }
 }
 
 @media screen and (max-width:560px) {
@@ -246,4 +247,9 @@
 	}
   .singlecombo>div:first-child:before { height: 30px; width: 30px; }
   .singlecombo>div .twofbcombo>div { font-size: 12px; }
+}
+
+@media screen and (max-width:370px) {
+  .elementwithlogo img { width: 240px; }
+  .poptabs { padding: 20px 10px; }
 }

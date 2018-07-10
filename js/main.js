@@ -218,8 +218,14 @@
 
 		/* Tap action */
 		$('.bgslidertop').click(function(){
-			$(this).addClass('active');
+			$('.poptabs').toggleClass('active');
 		});
+
+		var userAgent = window.navigator.userAgent;
+		if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i)) {
+			var anime = document.querySelector('.poptabs');
+			anime.style.display = "none";
+		}
 
 		/* Scroll Animation */ 
 		$('*[data-animated]').addClass('animated');
