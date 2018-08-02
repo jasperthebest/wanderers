@@ -10,6 +10,15 @@
 			$(this).css({'background-image':'url('+curBg+')'});
 		});
 
+		/* Outer Click */
+		$('body').click(function(){
+			$('.popup').fadeOut();
+		});
+
+		$('.skyfallpopup .middleflex > div img').click(function(e){
+			e.stopImmediatePropagation();
+		})
+
 		/* Mobile Menu */
 		$('nav > ul > li').each(function() {
 			if($(this).find('ul').length == 1) {
@@ -28,6 +37,13 @@
 		$('.threewanders > div a').click(function(){
 			var openid = $(this).data('openid');
 			$('#'+openid).fadeIn();
+			return false;
+		});
+
+		/* Sky Land Sea Popup */
+		$('.landimgs div').click(function(){
+			$('.skyfallpopup img').attr('src', $(this).find('img').data('bigimg'));
+			$('.skyfallpopup').fadeIn();
 			return false;
 		});
 

@@ -6,8 +6,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
       <title>Wanderers Homepage</title>
       <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-      <link href="https://fonts.googleapis.com/css?family=Pacifico|Satisfy|Material+Icons|Roboto:300,400,500,700" rel="stylesheet">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons" rel="stylesheet">
+      <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
       <link href="css/style.css" rel="stylesheet">
    </head>
    <body>
@@ -91,10 +91,13 @@
                <p>They are by far the longest known migrating species known, seeing two summers each year, get to experience more daylight than any other animal in the world (hence ‘Bird of the Sun’) as it migrates from its northern Arctic breeding grounds to southern Antarctic coast for summer and back again each year. They are estimated to travel over 90,000 Km every year, travelling over 2.4 million KM,which is three trips to the Moon!</p>
             </div>
             <div>
+               <img src="images/arcticimg.jpg" alt="">
+               <!--
                <video onclick="this.paused ? this.play() : this.pause();" poster="/images/arcticimg.jpg">
                  <source src="images/movie.mp4" type="video/mp4">
                  Your browser does not support the video tag.
                </video>
+               -->
             </div>
          </div>
       </div>

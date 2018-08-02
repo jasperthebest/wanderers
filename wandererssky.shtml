@@ -73,22 +73,22 @@
    <div class="container">
       <div class="threewanders landimgs">
          <div>
-            <img src="images/wandersky1.jpg" alt="">
+            <img src="images/wandersky1.jpg" data-bigimg="images/wandersky1.jpg" alt="">
          </div>
          <div>
-            <img src="images/wandersky2.jpg" alt="">
+            <img src="images/wandersky2.jpg" data-bigimg="images/wandersky2.jpg" alt="">
          </div>
          <div>
-            <img src="images/wandersky3.jpg" alt="">
+            <img src="images/wandersky3.jpg" data-bigimg="images/wandersky3.jpg" alt="">
          </div>
          <div>
-            <img src="images/wandersky4.jpg" alt="">
+            <img src="images/wandersky4.jpg" data-bigimg="images/wandersky4.jpg" alt="">
          </div>
          <div>
-            <img src="images/wandersky5.jpg" alt="">
+            <img src="images/wandersky5.jpg" data-bigimg="images/wandersky5.jpg" alt="">
          </div>
          <div>
-            <img src="images/wandersky6.jpg" alt="">
+            <img src="images/wandersky6.jpg" data-bigimg="images/wandersky6.jpg" alt="">
          </div>
       </div>
    </div>
@@ -109,31 +109,15 @@
                </ul>
             </div>
          </div>
-         <span class="copyright">(c) 2018 Wanderers Craft Brewery pvt. Ltd. / Web deisgn by <a href="#">owspire</a></span>
+         <span class="copyright">(c) 2018 Wanderers Craft Brewery pvt. Ltd. / Web design by <a href="#">owspire</a></span>
       </div>
    </footer>
    <!-- Popup -->
-   <div class="popup" id="popwander1">
+   <div class="popup skyfallpopup">
       <div class="middleflex">
          <div>
             <i class="material-icons closedpop">close</i>
-            <img src="images/wanderhover1.jpg" alt="">
-         </div>
-      </div>
-   </div>
-   <div class="popup" id="popwander2">
-      <div class="middleflex">
-         <div>
-            <i class="material-icons closedpop">close</i>
-            <img src="images/wanderhover2.jpg" alt="">
-         </div>
-      </div>
-   </div>
-   <div class="popup" id="popwander3">
-      <div class="middleflex">
-         <div>
-            <i class="material-icons closedpop">close</i>
-            <img src="images/wanderhover1.jpg" alt="">
+            <img src="images/wandersky1.jpg" alt="">
          </div>
       </div>
    </div>

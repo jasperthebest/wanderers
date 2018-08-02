@@ -73,22 +73,22 @@
    <div class="container">
       <div class="threewanders landimgs">
          <div>
-            <img src="images/wandersea1.jpg" alt="">
+            <img src="images/wandersea1.jpg" data-bigimg="images/wandersea1.jpg" alt="">
          </div>
          <div>
-            <img src="images/wandersea2.jpg" alt="">
+            <img src="images/wandersea2.jpg" data-bigimg="images/wandersea2.jpg" alt="">
          </div>
          <div>
-            <img src="images/wandersea3.jpg" alt="">
+            <img src="images/wandersea3.jpg" data-bigimg="images/wandersea3.jpg" alt="">
          </div>
          <div>
-            <img src="images/wandersea4.jpg" alt="">
+            <img src="images/wandersea4.jpg" data-bigimg="images/wandersea4.jpg" alt="">
          </div>
          <div>
-            <img src="images/wandersea5.jpg" alt="">
+            <img src="images/wandersea5.jpg" data-bigimg="images/wandersea5.jpg" alt="">
          </div>
          <div>
-            <img src="images/wandersea6.jpg" alt="">
+            <img src="images/wandersea6.jpg" data-bigimg="images/wandersea6.jpg" alt="">
          </div>
       </div>
    </div>
@@ -113,27 +113,11 @@
       </div>
    </footer>
    <!-- Popup -->
-   <div class="popup" id="popwander1">
+   <div class="popup skyfallpopup">
       <div class="middleflex">
          <div>
             <i class="material-icons closedpop">close</i>
-            <img src="images/wanderhover1.jpg" alt="">
-         </div>
-      </div>
-   </div>
-   <div class="popup" id="popwander2">
-      <div class="middleflex">
-         <div>
-            <i class="material-icons closedpop">close</i>
-            <img src="images/wanderhover2.jpg" alt="">
-         </div>
-      </div>
-   </div>
-   <div class="popup" id="popwander3">
-      <div class="middleflex">
-         <div>
-            <i class="material-icons closedpop">close</i>
-            <img src="images/wanderhover1.jpg" alt="">
+            <img src="images/wandersky1.jpg" alt="">
          </div>
       </div>
    </div>

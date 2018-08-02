@@ -51,6 +51,15 @@ textarea { resize: none; }
 input[type="text"], input[type="password"], textarea { border-radius: 0; appearance: none; }
 .container { margin: 0 auto; padding: 0 15px; width: 1240px; }
 
+/* Font Initialize */
+@font-face {
+  font-family:'Bira';
+  src: url('../fonts/Bira.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2122;
+}
 
 /* Basic setup */
 html { background-color: $white; }
@@ -309,8 +318,11 @@ footer { background-color: $dbrown; padding: 40px 0 25px; }
 
 .threewanders { display: flex; flex-flow: row wrap; padding: 50px 0;
   &.landimgs {
-    > div { padding: 7px 10px; 
-      img { width: 100%; }
+    > div { cursor: pointer; padding: 7px 10px; 
+      &:hover {
+        img { filter: grayscale(1); transform: scale(.9); }
+      }
+      img { filter: grayscale(0); transition: all .25s linear; transform: scale(1); width: 100%; }
     }
   }
   > div { flex: 1 1 33.3%; padding: 0 30px; text-align: center;
@@ -369,6 +381,7 @@ footer { background-color: $dbrown; padding: 40px 0 25px; }
 
 .middleflex { align-items: center; display: flex; justify-content: center; height: 100%;
   > div { position: relative; width: 700px; 
+    img { width: 100%; }
     i { color: $white; cursor: pointer; display: inline-block; font-size: 18px; position: absolute; right: 10px; top: 10px; transition: all .25s linear;
       &:hover { color: $dorg; }
     }
