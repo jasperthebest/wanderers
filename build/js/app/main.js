@@ -2,8 +2,10 @@
 
 	/* Ready function */
 	$(function() {
+		
 		/* Body Animate */
 		$('body').animate({'opacity':1}, 1500);
+
 		/* BG intro */
 		$('[data-bg]').each(function(){
 			var curBg = $(this).data('bg');
@@ -141,8 +143,8 @@
 		});
 
 		/* Tap action */
-		$('.bgslidertop').click(function(){
-			$('.poptabs').toggleClass('active');
+		$('.poptabs').click(function(){
+			$(this).addClass('active');
 		});
 
 		var userAgent = window.navigator.userAgent;
@@ -150,6 +152,33 @@
 			var anime = document.querySelector('.poptabs');
 			anime.style.display = "none";
 		}
+
+		/* Cookie */
+		function cookie() {
+			var name = "bannertab=";
+			var decodedCookie = decodeURIComponent(document.cookie);
+		    var ca = decodedCookie.split(';');
+		    for(var i = 0; i <ca.length; i++) {
+		        var c = ca[i];
+		        while (c.charAt(0) == ' ') {
+		            c = c.substring(1);
+		        }
+		        if (c.indexOf(name) == 0) {
+		            //return c.substring(name.length, c.length);
+		            $('.poptabs').hide();
+		            console.log("hello");
+		        } else {
+		        	console.log("world");
+		        	var d = new Date();
+					var cname = "bannertab";
+					var cvalue = "true";
+				    d.setTime(d.getTime() + (1*24*60*60*1000));
+				    var expires = "expires="+ d.toUTCString();
+				    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+		        }
+		    }
+		}
+		cookie();
 
 		/* Scroll Animation */ 
 		$('*[data-animated]').addClass('animated');
