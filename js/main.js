@@ -104,6 +104,50 @@
 			$(this).css({'background-image':'url('+curBg+')'});
 		});
 
+		/* Move Menu Down */
+		$('.movemenudown').click(function(){
+			var idmove = $(this).attr('href');
+			if($(window).width() < 1024) {
+				$('html, body').animate({
+				    scrollTop: $(idmove).offset().top - 60
+				 }, 700);
+			} else {
+				$('html, body').animate({
+				    scrollTop: $(idmove).offset().top - 72
+				 }, 700);
+			}
+			return false;
+		});
+
+		/* Explore move down */
+		$('.explorebtn').click(function(){
+			if($(window).width() < 1024) {
+				$('html, body').animate({
+				    scrollTop: $('#explorenext').offset().top - 60
+				 }, 700);
+			} else {
+				$('html, body').animate({
+				    scrollTop: $('#explorenext').offset().top - 72
+				 }, 700);
+			}
+			return false;
+		});
+
+		/* Know beer */
+		$('.beerdetl a').click(function(){
+			var moveid = $(this).attr('href');
+			if($(window).width() < 1024) {
+				$('html, body').animate({
+				    scrollTop: $(moveid).offset().top - 60
+				 }, 700);
+			} else {
+				$('html, body').animate({
+				    scrollTop: $(moveid).offset().top - 72
+				 }, 700);
+			}
+			return false;
+		});
+		
 		/* Outer Click */
 		$('body').click(function(){
 			$('.popup').fadeOut();
@@ -120,6 +164,10 @@
 			}
 		});
 
+		$('nav > ul > li > ul > li.active').each(function() {
+	      $(this).parents('li').addClass('active');
+	    });
+
 		$('.nav-icon').click(function(){
 			$('.nav-icon, nav').toggleClass('active');
 		});
@@ -128,11 +176,13 @@
 			$(this).parents('.popup').fadeOut();
 		});
 
+		/*
 		$('.threewanders > div a').click(function(){
 			var openid = $(this).data('openid');
 			$('#'+openid).fadeIn();
 			return false;
 		});
+		*/
 
 		/* Sky Land Sea Popup */
 		$('.landimgs div').click(function(){
@@ -162,9 +212,9 @@
 				var result = per * alc * 0.033814 * 0.823 * 0.62 / (16 * wgt * 2.2046) - 0.015 * tim;
 				//var result = (alc * 5.14 / wgt * 0.62) - .015 * tim;
 				if(result < 0) {
-					$('.middlealcohol h5').addClass('result').text(0 + ' %');
+					$('.middlealcohol h5').addClass('result').html('<small>Your Blood Alcohol Content (est)</small>' + 0 + ' %');
 				} else {
-					$('.middlealcohol h5').addClass('result').text(result.toFixed(2) + ' %');
+					$('.middlealcohol h5').addClass('result').html('<small>Your Blood Alcohol Content (est)</small>' + result.toFixed(2) + ' %');
 				}
 				
 			}
@@ -258,13 +308,13 @@
 		        if (c.indexOf(name) == 0) {
 		            //return c.substring(name.length, c.length);
 		            $('.poptabs').hide();
-		            console.log("hello");
 		        } else {
-		        	console.log("world");
+		        	//console.log("world");
 		        	var d = new Date();
 					var cname = "bannertab";
 					var cvalue = "true";
-				    d.setTime(d.getTime() + (1*24*60*60*1000));
+				    //d.setTime(d.getTime() + (1*24*60*60*1000));
+				    d.setTime(d.getTime() + (20*60*1000));
 				    var expires = "expires="+ d.toUTCString();
 				    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 		        }

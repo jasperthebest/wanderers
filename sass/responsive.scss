@@ -89,7 +89,7 @@
       img { display: block; margin: 20px auto 0; }
     }
   }
-  .knowbeer { padding: 50px 0; }
+  .knowbeer { padding: 90px 0 50px; }
   .middleeight.mapform, .middleeight { padding: 50px 0; width: 100%; }
   .footflex { width: 100%; }
   .listbeer>div { width: 50%; }
@@ -175,7 +175,7 @@
   .secondsect { padding: 40px 0 50px; }
   .fourthsect { padding: 40px 0 20px; }
   footer { padding: 30px 0 25px; }
-  .evttablemiddle.eventboard, .evttablemiddle.offerside { padding: 80px 0; }
+  .evttablemiddle.eventboard, .evttablemiddle.offerside { padding: 110px 0 50px; }
   .middleflex>div { width: 100%; }
   .splitwayshow.threewayshow>div { padding: 0 0 20px; width: 100%; }
   .flexboxbeer { padding: 40px 0; }
@@ -215,13 +215,14 @@
   }
  }
  .middlebeercontent .twodetailbeer:before { display: none; }
- .knowbeer { padding: 40px 0; }
+ .knowbeer { padding: 90px 0 40px; }
  .singlecombo>div:first-child:before { height: 40px; width: 40px; }
  .singlecombo>div .twofbcombo>div { font-size: 14px; }
  .internatbroad .slick-arrow i { font-size: 40px; line-height: 50px; }
  .internatbroad .slick-arrow.slick-next { right: 0; }
  .internatbroad .slick-arrow.slick-prev { left: 0; }
  .poptabs { padding: 20px; }
+ .middlealcohol>div h5 { font-size: 16px; }
 }
 
 @media screen and (max-width:560px) {
@@ -235,7 +236,6 @@
   .recntlink>div h5 { font-size: 14px; }
   .fourthsect p { font-size: 16px; }
   .homelogo>div h1 strong { font-size: 25px; }
-  .evttablemiddle.eventboard, .evttablemiddle.offerside { padding: 50px 0; }
   .singlecombo>div .twofbcombo>div { font-size: 13px; }
   .singlecombo>div:first-child:before { height: 30px; width: 30px; }
   .singlecombo>div:first-child .twofbcombo>div, .singlecombo>div .twofbcombo>div { text-align: center; }
@@ -247,6 +247,7 @@
 	}
   .singlecombo>div:first-child:before { height: 30px; width: 30px; }
   .singlecombo>div .twofbcombo>div { font-size: 12px; }
+  .middlealcohol>div h5 { font-size: 14px; }
 }
 
 @media screen and (max-width:370px) {
